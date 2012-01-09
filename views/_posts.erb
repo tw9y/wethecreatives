@@ -1,0 +1,16 @@
+<ul class="articles">
+    <% @posts.each do |post| %>
+    <li>
+      <article>
+          <div class="date_divider">
+            <time><%= time_ago(post.published_at) %></time>
+          </div>
+          <%= image_tag post.opening_image %>
+          <h1><a href="/<%= post.slug %>"><%= post.title %></a></h1>
+          <span class="author">by <%= post.author %></span>
+          
+          <%= text_to_html(post.body, :teaser => post.link.nil?, :slug => post.slug)%>
+      </article> 
+        </li>
+    <% end %> 
+</ul>

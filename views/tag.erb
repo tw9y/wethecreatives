@@ -1,0 +1,22 @@
+<% content_for :meta do %>
+  <title><%= Site.title %></title>
+  <meta name="keywords" content="<%= Site.meta_keywords %>"> 
+  <meta name="description" content="<%= Site.meta_description %>">
+  <meta property="og:title" content="<%= Site.title %>"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="http://wethecreatives.com"/>
+  <meta property="og:image" content="http://wethecreatives.com/images/logo.png"/>
+  <meta property="og:site_name" content="<%= Site.title %>"/>
+<% end %>
+
+<% content_for :navigation do %>
+  <%= partial :default_menu %>
+<% end %>
+
+<%= partial :posts => @posts %>
+
+<% if @posts.length == 0%>
+<div class="post_detail"></div>
+<h2>Sorry, we couldn't find any posts with that tag.</h2>
+<center> Maybe you should <a href="/">start over?</a></center>  
+<% end %>

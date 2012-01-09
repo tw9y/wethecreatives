@@ -1,0 +1,136 @@
+# Interview: Ryan Bates
+
+	- published: true
+	- published_at: 2010-11-29
+	- author: Kristian Laustsen
+	- tags: developers
+	- location: Unknown, USA
+	- tagline: screencast-wizard
+	- meta_description: Interview with Ryan Bates, programmer screencast-wizard of Railscasts
+	- legacy_url: http://wethecreatives.com/talks/ryan-bates
+	- opening_image: /images/opening/rb2.png
+	- images: http://farm6.static.flickr.com/5014/5397958821_d98c50bd9d_z_d.jpg, http://farm6.static.flickr.com/5057/5397958685_a7394a6c08_z_d.jpg, http://farm6.static.flickr.com/5214/5398559728_311eb15477_z_d.jpg
+
+In this weeks episode of We the Creatives I’ve had the honor of talking to the person that has taught me more than anyone else about Ruby and Ruby on Rails – and I’ve never even met him. Allow me to introduce Ryan Bates of [Railscasts](http://railscasts.com/ "Railscasts").
+
+If you have any interest in software development i urge you to stop reading for a second, point your browser to [Railscasts](http://railscasts.com/ "Railscasts") and just browse through the amazing amount of material before you continue reading.
+
+I was thinking about how to start this interview for a long time. My guess is that most of the readers already know of you. But, perhaps, to keep the balance – who are you and what do you do?
+
+>I’m a guy who is passionate about web development and teaching. [Railscasts](http://railscasts.com/ "Railscasts") is the result of bringing both of these passions together.
+>
+>It was around 1998 when I started learning PHP and MySQL. After dealing with the headaches of trying to maintain large sites without any structural framework I started searching for something better. Then I found Rails in 2005 and my world became a better place.
+
+Would you consider yourself to be a celebrity in the rather small world of web development?
+
+>I’m hardly celebrity material, but I have been called a Programmer Rock Star a few times in light of the [Intel commercial](http://www.youtube.com/watch?v=q-8GVi2Fdi4 "Intel commercial").
+
+Tell us how [Railscasts](http://railscasts.com/ "Railscasts") came to life and why.
+
+>[Railscasts](http://railscasts.com/ "Railscasts") came out of inspiration from other screencasts, specifically Photoshop Killer Tips by Matt Kloskowski. I loved the visual learning style of screencasts and the idea of frequent, short episodes. However, I am not much of a designer and wanted screencasts that were geared toward web programming. Not seeing anything on Rails at the time, I decided to scratch my own itch.
+
+You’ve been doing an episode of railscasts for the last 240 weeks. That’s four and a half years. When I talked to my fiance before this interview her initial response was “Wow, is he insane?”. I have to ask, are you?
+
+>Well, I started in March 2007 at three episodes per week. That’s not quite four and a half years which makes me only half insane.
+
+What motivates you to stay committed?
+
+>Knowing that there’s an audience out there who expects an episode every Monday. Also the encouraging feedback I get from the community helps me know that they are finding it useful. I haven’t missed a week yet and don’t plan to break that streak.
+
+Guide us through the process of creating an episode of [Railscasts](http://railscasts.com/ "Railscasts"). What tools do you use, how do you get your ideas, how much time do you spend on each episode?
+
+>I tend to procrastinate. Usually I don’t start until Sunday evening around 6 hours before the episode needs to be online. It involves reviewing my list of ideas that I gather throughout the week and trying each one out until I find something that flows well in screencast form.
+>
+>Then I hit record in iShowU Classic and speak into my Heil PR40 mic. I record the screen at the same time, but I record very short takes (usually less than 30 seconds) which helps if I make a mistake.
+
+Where do you get the time?
+
+>I make time. [Railscasts](http://railscasts.com/ "Railscasts") is a high priority to me and it fulfills my desire to teach. I also find I learn more through it and become a better developer myself
+
+You do a lot of audio and visual work, do you ever get what we call writer’s block?
+
+>It helps that each episode is a different topic, and I can start from scratch each time. There are certainly times when it is difficult to come up with an episode, but during those times I just tell myself “it’s free” and choose to do something simple that week.
+
+I know a lot of developers that has been hooked on [Ruby](http://ruby.org/ "Ruby") and/or [Rails](http://rubyonrails.com/ "Rails") thanks to [Railscasts](http://railscasts.com/ "Railscasts"). Do you ever get thanked for the massive amount of work that you’ve put into teaching other people – for free?
+
+>All of the time. I wouldn’t be doing it if it weren’t for the encouraging words of others. [Rails](http://rubyonrails.com/ "Rails") is a generous community and is wonderful to be a part of.
+
+Are there days when you just feel like never, ever doing a screencast again?
+
+>LOL. Ask me that at 2 AM on Monday when I have to scrap the episode because it isn’t flowing like I want it to. But thankfully those moments are rare.
+
+Are you ever afraid of doing code in a bad way when you do an episode of [Railscasts](http://railscasts.com/ "Railscasts")? I mean, considering the amount of people that actually listen to what you say.
+
+>I try to research a topic considerably before an episode and don’t proceed if I’m not confident about it. However, there are times I’ve given poor suggestions which I need to correct in the show notes or in future episodes.
+>
+>[Rails](http://rubyonrails.com/ "Rails") is proudly an opinionated framework with an opinionated community. I certainly hope the viewers of [Railscasts](http://railscasts.com/ "Railscasts") don’t take what I say as gospel but adapt the episode to their opinions and their way of working.
+
+Gregg Pollack and Envy Labs launched a new website a few days ago called Rails for zombies. In his introduction he talks about books and screencasts as being “boring”. Are screencasts as format outdated?
+
+>Screencasts aren’t outdated, but they don’t fit every topic or situation which is why some ideas never turn into episodes. I also try to keep the screencasts around 10 minutes because I find that to be a good span of time where one can sit and absorb information.
+>
+>It would be nice to add more interactivity to the screencasts though, and maybe that is something I can pursue in the future.
+
+Do you prefer to write your own tools rather than using existing ones? I’m thinking of Cancan for example, there’re a lot of authorization gems out there – yours already has some 1400 watchers on Github. I think what I’m trying to figure out is if you’re writing new tools because you enjoy it, or because the existing ones don’t fit your needs?
+
+>Both. I will often write my own code if a plugin does not fit the requirements well. I find forcing other code where it doesn’t fit leads to more maintenance problems in the future.
+>
+>Trying to teach how to use a plugin amplifies each of the steps necessary in getting it working. I find myself saying “it should behave this way” just so it can flow better in a screencast.
+
+As a long time follower of your work it seems to me that you’re skilled in most, if not all, of the web technologies. Are there any area in which you feel like you’re not in total control? Myself, I get scared just by looking at HTML. Although I’m thinking that HAML might be my rescue.
+
+>I’m still not comfortable with JavaScript, but jQuery helps a lot in this area. The commenters will often suggest ways to improve my JavaScript in an episode. I’m always learning.
+
+In all your screencasts you have a theme for Textmate that seems to be everywhere now days. There’s even a railscasts theme for Visual Studio. Did you create it yourself, the theme for Textmate i mean?
+
+>I asked on the Rails Forum for theme ideas and was inspired by a theme from idlefingers. I used that to create the TextMate theme. You can find the original thread here: http://railsforum.com/viewtopic.php?id=862
+
+Why Textmate?
+
+>It is a beautiful editor and comes across nicely in screencasts. I sometimes code in Vim as well, but for screencasting it works better to have something more visual like TextMate.
+
+What’s the best font size when programming? There seems to be two disciplines here – one that wants as much code as possible on the screen and the other mainly just the function that they currently work on.
+
+>I used to code with a tiny font, but now I use 13pt Bitstream Vera Sans Mano. There’s really no sense in straining my eyes. Monitors are big enough now so I can still fit a lot of code on one screen.
+
+You’re a strong promoter for open source. What has open source meant to you?
+
+>Open source allows me to stand on the shoulders of giants and benefit from the work of so many others. It also allows me to know my tools better by exploring how they work internally.
+>
+>I find even more benefits when I open source my own code. It helps me write better code knowing that others can see it. This is why GitHub has been one of the best things to happen to my code in recent years.
+
+Being one of the front figures of Rails – have you any contact with DHH and the rest of the core team?
+
+>I talk with them occasionally, but not regularly. I’ve been very impressed with the work they have done, especially with Rails 3.
+
+I have this feeling that you’re very pro mac. What would it take for you to switch to some other platform?
+
+>I’ve been using Macs since I was 6 years old, so I’m very used to it. If I can work more efficiently on another platform them I’m open to switching, but I haven’t seen that to be the case.
+
+Outside of software development, are there any unknown hobbies of yours?
+
+>I enjoy bowling and playing the piano. I also have been getting into a board game called Go.
+
+What gets you to enter a flow when writing code? Any specific music or environment?
+
+>I usually listen to instrumental music because I find lyrics distracting. This is often piano music or movie soundtracks. Some of my favorite composers are John Williams, Hans Zimmer and Joe Hisaishi.
+
+How do you make your living?
+
+>I work as a web developer for my dad’s company Artbeats (http://www.artbeats.com). That is where I got into web development and Rails.
+
+Is it possible to contract you?
+
+>I’m not available for contract work or for hire, sorry.
+
+In a perfect world. How would your ideal working conditions look like? Would you teach others about beautiful code full time?
+
+>My dream is to expand Railscasts into my full time job. It is what I love to do, and I’m slowly making this happen.
+
+To wrap this interview up I’m going to ask you what movie or book that has made the best zombies and why.
+
+> Shaun of the Dead because Simon Pegg is awesome.
+
+Finally I just want to give you a really large thank you for taking the time. It was a pleasure having you here and I hope you enjoyed it as well. Thanks Ryan.
+
+>Thank you! My pleasure.

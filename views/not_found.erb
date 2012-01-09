@@ -1,0 +1,14 @@
+<% content_for :meta do %>
+  <title>Not found - <%= Site.title %></title>
+  <meta name="keywords" content="<%= Site.meta_keywords %>"> 
+  <meta name="description" content="<%= Site.meta_description %>">
+<% end %>
+
+<% content_for :navigation do %>
+  <%= partial :default_menu %>
+<% end %>
+
+<div class="post_detail"></div>
+<header>
+  <h2>I have no idea what you are after. Maybe you should try again.</h2>
+</header>

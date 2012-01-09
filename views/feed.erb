@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <atom:link href="http://wethecreatives.com/feed" rel="self" type="application/rss+xml" />
+    <title>wethecreatives.com</title>
+    <link>http://wethecreatives.com</link>
+    <description>We the Creatives</description>
+    <image>
+      <url>http://wethecreatives.com/images/logo.png</url>
+      <title>wethecreatives.com</title>
+      <link>http://wethecreatives.com</link>
+    </image>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <language>en-uk</language>
+    <copyright>We the Creatives</copyright>
+    <pubDate><%= @posts.first.published_at.rfc2822 %></pubDate>
+    <% for post in @posts %>
+      <item>
+        <title><%= post.title %></title>
+        <description><![CDATA[
+          <% if post.slug %>
+            <a href="http://wethecreatives.com/<%= post.slug %>">&#9733; <%= post.title %></a>
+          <% end %>
+          <%= text_to_html(post.body) %>
+        ]]></description>
+        <pubDate><%= post.published_at.rfc2822 %></pubDate>
+        <link>http://wethecreatives.com/<%= post.slug %></link>
+        <guid isPermaLink="true">http://wethecreatives.com/<%= post.slug %></guid>
+      </item>
+    <% end %>
+  </channel>
+</rss>

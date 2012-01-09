@@ -1,0 +1,100 @@
+# Interview: Emiel Mols
+
+	- published: true
+	- published_at: 2011-05-23
+	- author: Kristian Laustsen
+	- tags: developers
+	- location: Enschede, Netherlands
+	- meta_keywords:
+	- meta_description: Interview with Emiel Mols - the creator of Spotify On The Web
+	- legacy_url:
+	- tagline: developer of spotifyontheweb.com
+	- opening_image: /images/opening/em.png
+	- images: http://static.wethecreatives.com/images/emiel-mols/emiel-mols1.png, http://static.wethecreatives.com/images/emiel-mols/emiel-mols2.png
+
+A website that has been seeing a lot of buzz lately is a web front-end for the music service Spotify called SpotifyOnTheWeb. I sat down with it's creator Emiel Mols, a student from the Netherlands, and had a little chat.
+
+Hi Emiel, tell us a little about yourself.
+
+>23 years old, student Computer Science at Twente University, the Netherlands. I work at Dutch dating-site startup [paiq.nl](http://paiq.nl "paiq.nl"). Between my work and, well, some studying, I do a lot of sports, and chances are pretty high you'll find me somewhere in the local bars when you visit Enschede, the place I live in a student house and my university is located.
+
+How long have you been a programmer?
+
+>When I was young, I used to do some QuickBasic programming - not really sure if that counts though ;). Some serious (web) programming I picked up with the various jobs I had during my studies, especially while working for paiq.nl.
+
+You created [SpotifyOnTheWeb](http://spotifyontheweb.com "SpotifyOnTheWeb"), which has been getting a lot of buzz lately. Tell us more about it.
+
+>It's a showcase of what's possible with HTML5 and fast javascript engines. It's not feature-rich; the implementation allows you to login with your Spotify premium account, show your playlists and play some songs. 
+>
+>The really cool thing is that the complete Spotify protocol stack has been implemented in JavaScript (or actually, CoffeeScript): no server logic is required for it to work, as is with projects such as [Shadify](http://peecfw.org/spotifyonline/ "Shadify").
+
+How did you get the idea?
+
+>After a collegue pointed me to [CoffeeScript](http://jashkenas.github.com/coffee-script/ "CoffeeScript" ) and all its niceness, I was looking for a spare-time project to try it out. At the same time I was reading up on the Despotify project. Both the technical and ethical goal of the project were something I found interesting. It struck my mind I could try to port Despotify to CoffeeScript and run it in a Chrome webbrowser, since it had support for (almost) all pieces.
+>
+>Coincidently, I was looking for some creative way to arrange a place for my master's thesis at a cool web company abroad. Half way through the CoffeeScript project, I figured it might be a great way to get some attention.
+
+Walk us through the technologies behind the application. We want to know every little dirty secret.
+
+>I initially had hopes of using the audioCanvas and WebSocket APIs to take care of playing the ogg vorbis stream, and connecting with the Spotify backend, respectively. Unfortunately, audioCanvas is still disabled by default in Chrome 11 and WebSocket has other [limitations](http://blog.spotifyontheweb.com/on-websockets "limitations"), making them both unsuitable.
+>
+>It's Flash that had to save the day here, but, a little to my own amazement, this worked out pretty okay. Flash does take up a relative large amount of resources when playing a track, and my guess is that Google's V8 would be a lot better at decoding ogg vorbis. When all the APIs are present in Chrome itself, I will probably switch.
+>
+>The project uses very few out-of-the-box libraries or external tools. For my Flash code, I use Haxe, a language that compiles into Flash9 bytecode. Ogg decoding in Flash is done with [FVorbis](http://barelyfocused.net/blog/2008/10/03/flash-vorbis-player/ "FVorbis"), a recompiled version of a Java implementation in Haxe. Building is done using a custom CoffeeScript buildscript.
+>
+>Very interesting for the project in the area of performance is the representation of byte buffers in JavaScript. Recently, the [typed arrays](https://developer.mozilla.org/en/javascript_typed_arrays "typed arrays") APIs have been developed that would allow fast byte buffer operations in JavaScript. For SpotifyOnTheWeb, I use native JavaScript arrays with numbers that represent bytes as values, partly because I found the typed array implementations between Firefox and Chrome differ to much, and partly because it's just easier not to worry about allocation size. The author of noVNC has done some [benchmarking](http://blog.n01se.net/?p=248 "benchmarking") in this area, and this looks pretty promising.
+>
+>To prevent me from answering too elaborate here and now, I'll leave it at this. I hope to zoom in on some of the techniques of the project on a [blog](http://blog.spotifyontheweb.com "blog") I setup. Feedback is very welcome :).
+
+As programmers, why do we think that it's important to always push the limits?
+
+>I don't think it's always important to push the limits. Sometimes stuff just has to work, and pushing implementations to be more efficient, for instance, has no use. On the other hand, there are cool examples of when pushing limits creates great new possibility. Look at Google Chrome and their V8 engine - when the whole browser landscape would have been stuck with IE 8 and Firefox 3, projects like [SpotifyOnTheWeb](http://spotifyontheweb.com "SpotifyOnTheWeb") would never have been possible.
+
+What is it with programming that is appealing?
+
+>Although I can be pretty affectionate about programming per se, I think the really cool stuff is in its application. Making a better interface that improves the user experience for 100,000 users, for instance. And it's often not just programming in these scenarios. Interface design, user psychology, etc. all come together.
+
+How does your creative process work? When you get an idea, do you start coding right away or are there more components to it?
+
+>This really differs from case to case. I did teach myself over the years not to loose myself in fancy implementations too fast. For a lot of ideas I am enthusiastic about at first, it still surprises me how fast my own view can change when discussing the idea with other people, so that's definitely something I do a lot.
+
+Rumors say that the people at Spotify was so impressed by your work on [SpotifyOnTheWeb](http://spotifyontheweb.com "SpotifyOnTheWeb") that they offered you a job. Are you at liberty to comment on that?
+
+>Haha, "Rumors say" is just a great way to start any sentence.
+>
+>Just to clear things up. I am currently not looking for a job, but for a position to do my master's thesis. After the attention for [SpotifyOnTheWeb](http://spotifyontheweb.com "SpotifyOnTheWeb"), I have been contacted by someone from Spotify with some questions regarding my plans for my master's thesis. Nothing concrete yet.
+
+If this were to become concrete, what's your thoughts about it? Thinking about moving? I'm from Sweden (and Stockholm actually) myself and I can tell you - the only downside is the bloody winter. It's freezing.
+
+>It so happens I have lived in Stockholm myself for 5 months during a student exchange semester at KTH last year. It was pretty cool (figuratively), and that's one of the reasons I have a preference for doing my thesis at a Swedish company. Another one being that I still have the frivilous ambition to learn this language of yours.
+>
+>Seriously, though, Spotify is - obviously - a top-notch candidate, but I've also received some other offers (from Sweden, but also from England, Spain or the US) that I am still considering.
+
+Did you talk to Spotify before creating [SpotifyOnTheWeb](http://spotifyontheweb.com "SpotifyOnTheWeb") or did you take your chances and hoping not to get sued? It's not a company in the US though so I'm guessing it's a little safer dabbling with them.
+
+>I have had no contact before the launch. As I see it, a cease and desist request from Spotify Legal would also qualify as 'getting attention'. My guess is I would have done the same if Spotify was from the US. Call it bold, call it plain stupid, I think porting an implementation and simply using a brand name without commercial intent, probably has little damaging legal consequences in any country.
+
+Tell us a little about your set up. Preferred softwares, languages, hardware etc.
+
+>This really differs. Sometimes I use a terminal to a remote host running screen and vim. Works out great. Sometimes I feel like using TextMate with Transmit.
+
+Show us.
+
+<a href="http://static.wethecreatives.com/images/emiel-mols/emiel-mols3-original.png">
+![Emiel Mols desktop](http://static.wethecreatives.com/images/emiel-mols/emiel-mols3.jpg "Emiel Mols desktop")</a>
+
+Do you have any more exciting projects going on and what are your plans for the near future?
+
+>No exciting projects coming up - I've had my share of all-nighters the last couple of weeks. In the next months I am going to focus on passing my university courses, do some work, and then enjoy the holidays with a lot of traveling. Perhaps write up a blog post every now and then.
+
+Name three books that every programmer should have.
+
+>Books for programmers. Hmm, is there a CoffeeScript book?
+
+<a href="http://www.amazon.com/gp/product/1934356786/ref=as_li_ss_tl?ie=UTF8&tag=wethecrea-20&linkCode=as2&camp=217145&creative=399349&creativeASIN=1934356786">CoffeeScript: Accelerated JavaScript Development</a><img src="http://www.assoc-amazon.com/e/ir?t=&l=as2&o=1&a=1934356786&camp=217145&creative=399349" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> is supposed to be good. But since it's not released yet I'm not betting any money on it.
+
+Anything else we should know?
+
+>I would like to add that [SpotifyOnTheWeb](http://spotifyontheweb.com "SpotifyOnTheWeb") requires some rather large internet pipes, due to all the traffic to and from Spotify has to be proxied through a custom server . I'd like to thank my friend and founder of webhost [antagonist.nl](http://antagonist.nl "antagonist.nl") for both his support during the project and sponsoring me a vps with bandwidth at cost price.
+
+Thanks for taking the time Emiel. We wish you the best of luck!

@@ -1,0 +1,19 @@
+<% content_for :meta do %>
+  <title>The archive - <%= Site.title %></title>
+  <meta name="keywords" content="<%= Site.meta_keywords %>"> 
+  <meta name="description" content="<%= Site.meta_description %>">
+<% end %>
+
+<% content_for :navigation do %>
+  <%= partial :default_menu %>
+<% end %>
+
+<div class="post_detail"></div>
+<% for date, posts in @posts_by_month_and_year %>
+  <h3><%= date.strftime("%B, %Y") %></h3>
+  <ul class="archive">
+    <% for post in posts %>
+      <li><%= link_to_post post %></li>
+    <% end %>
+  </ul>
+<% end %>

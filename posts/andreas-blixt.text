@@ -1,0 +1,129 @@
+# Interview: Andreas Blixt
+
+	- published: true
+	- published_at: 2010-11-23
+	- author: Kristian Laustsen
+	- tags: developers, photographers
+	- location: Stockholm, Sweden
+	- meta_keywords:
+	- meta_description: Interview with Andreas Blixt, programmer and hobby photographer
+	- legacy_url: http://wethecreatives.com/talks/andreas-blixt
+	- tagline: programmer at undiclosed company
+	- opening_image: /images/opening/ab2.png
+	- images: http://static.wethecreatives.com/images/andreas-blixt/andreas-blixt1.jpg, http://static.wethecreatives.com/images/andreas-blixt/andreas-blixt2.jpg, http://static.wethecreatives.com/images/andreas-blixt/andreas-blixt3.jpg
+
+This week we’re going to talk to the Stockholm-based web developer and hobby photographer Andreas Blixt. We had a short chat that didn’t turn out the way I had planned because of some red tape, but I still wanted to publish parts of the interview because I think that Andreas is a great guy and hopefully he’ll inspire you. I hope most of it will make sense anyway.
+
+Hi Andreas. Great to have you here! Is everything all right?
+
+>Hey! Great to be here. Yup, everything’s awesome!
+
+Tell us a little about yourself.
+
+>Sure! I’m 23 years old, and live in Stockholm. I moved here about a year ago when I got a job at an IT company. I’ve been working with IT since I was 15 years old. I was living in Spain back then and got an apprenticeship at a small web development company. So yeah, I skipped school, but I think it all turned out pretty well anyways!
+>
+>In my free time I enjoy walks with my camera, photography is a hobby of mine. I also have a hard time staying away from the computer, and work on various small projects. Generally those projects are web applications focusing on the social aspect of the web, because that’s what inspires me to create stuff – to see a bunch of people using my creations together to do stuff I never thought possible! My latest project that has caused me a lot of sleepless nights is a Minecraft clone (2D for now) written in JavaScript.
+
+Minecraft clone? Planning on hitting the large cash?
+
+>Haha no, I see no economical future in this project. It’s just for fun. Besides, a project could never become great if your plan from the start was to make big money. Also, this project is actually open source (http://github.com/blixt/inf).
+
+How was it like living in Spain? Do you miss anything from there?
+
+>It was great! I like to call myself a sun addict, so getting rid of all the dark and cold periods of the year was nice. The lifestyle is relaxed too, which suits me well. On the bad side, there’s not in any way the same security or cleanness we have here in Sweden, but I can live with that.
+
+Wouldn’t mind some of that sun myself.. Any other interesting projects you’ve been working on?
+
+>I try to create a lot of small projects since they are easier to finish, which gives more satisfaction. A few such recent projects are http://fred.ag/ which quite simply tells the user whether today is Friday (fredag in Swedish) and http://var.blixt.org/ for developers out there unable to come up with good names their variables. As for my bigger projects, they’re generally gaming-oriented, since I did a lot of game programming in my early teens. There’s http://www.multifarce.com/, a community developed text adventure which I would like to finish some day, and http://mnk.appspot.com/, an X-in-a-row game.
+
+Can you tell us a little about where you get your ideas? Are there any specific situations?
+
+>I don’t know! I suspect they jump out from the dark corners of my mind. All I know is that they usually pop up when I’m doing something completely unrelated. I’m used to it now so I always have a notepad and pen nearby so I can scribble down the idea before it fades away again.
+
+Do you usually go by a “standard” workflow like idea -> pen and paper -> implementation or do you just stumble upon something while you code?
+
+>When it comes to personal projects, I never restrict myself to specifications before-hand. I just try to develop the project step by step. This does mean that the projects will never be completed, but I think that’s implicit with most pet projects. I do try to make milestones for my projects, however, like “in two weeks I want this project to be able to do this and that”, but beyond that, I just code until it turns into something (hopefully) cool. The most important thing to me is that I learn new things in the process.
+
+Using Github I would assume you’re not a Windows user? I might be out sailing, but last time I checked Git worked pretty crappy in a Windows environment.
+
+>I actually work in a lot of environments every day. At work, I use a MacBook Pro, but most of my development is done on a Linux machine via SSH. At home I have a PC, which is light years ahead of any Mac when it comes to gaming. Not that I have a lot of time for gaming, but I did stay up till 2 am this morning playing Borderlands!
+>
+>As for Git (which is awesome!), you can get it working pretty well on a Windows machine actually. If you want to take a GUI approach, there’s TortoiseGit, and for the shell nerds there’s Cygwin.
+
+As a web developer, what languages have you been using?
+
+>I got interested in web development very early in my life. At the age of 9 I started going to a library to use the internet. That was back in 1997, so the internet as we know it was pretty young. I started learning HTML and CSS, and that quickly led to ASP and then PHP. PHP became my favorite language up until three years ago when I tried out Python. Python is a great language, and I love how well-designed it is.
+
+Python is great indeed. I’ve been hooked on Ruby myself. The last couple of years there’s been a real upswing for dynamic script languages. Are they going to get a even larger share of the market?
+
+>I believe that the more powerful computers get, the more we will focus on the speed of developers rather than the speed of the code. Since a lot of these script languages are very simple for the developer to use, I really believe they will become more and more common. But there will always be room for compiled languages, for cases when you really do need  better performance.
+
+Let’s talk about your other hobby a bit. What setup do you use when shooting pictures? Any input in the ever going Canon vs Nikon rumble? (yep, I had to ask)
+
+>I use a Canon EOS 7D, usually with my favorite lens, the Canon EF 50mm/f1.4. For inside shooting, I consider my Speedlite 480EX II flash a must.
+>
+>As for Nikon versus Canon, there’s not much to say I think. They’re both great brands, and deciding which one to get boils down to trying them both and choosing the one that feels best. Also, if you’ve got a friend who’s enthusiastic about photography, it’s worth considering getting whatever brand they’re using, since you can borrow her/his lenses!
+
+Yeah, I did the same myself when I choose Canon. A friend of mine had a lot of good gear that i was hoping to borrow. How do you like the 7D camera? Is that one of the full format models?
+
+>The 7D is a great camera. I’ve used it to record movies (1080p with a shallow depth of field is beautiful!), and it takes great action shots (8 pictures per second with fast auto focus.) It’s also good in low-light situations (though not as good as the 5D.) And no, it doesn’t have a full format sensor, which is my only gripe… But it would have cost more than the 5D Mk II if it did, so I guess it’s a fair trade-off.
+
+Does filming with the 50mm/1.4 work well? I would imagine it would require some image stabilization?
+
+>It works pretty well! Shaking isn’t a big problem I think, and there’s software for stabilizing the image afterwards (you lose some resolution, but at 1080p I don’t think that’s a problem.) The biggest problem is that the internal microphone records a lot of the mechanics in the camera, as well as you touching it. Also, focus is tricky if you’re moving the camera around. Generally you want to record from a fixed point, though and for that everything works perfectly!
+
+What gear would you recommend to readers that might be interested in starting with photography? The EOS 7D is not really a cheap piece of equipment, would you recommend a beginner photographer to go with a DSLR camera?
+
+>If they’re interested in photography in general, and haven’t tried it before, I recommend them to get a nice point-and-shoot camera to start with. Even a mobile phone with a good camera can be sufficient. The iPhone 4, for example.
+>
+>If they’re interested in photography because they’re taking a lot of photos with their point-and-shoot camera or mobile phone (and not only of their drunk friends :)), then yes, I recommend them to try out a DSLR camera. Start with something basic though, like the Canon EOS 1000D or the Nikon D3000. There are some other brands, but getting used (cheaper) lenses for Canon and Nikon is easier. Also, make sure that the camera comes with a lens kit. No use in getting a DSLR without an accompanying lens. :)
+
+How long have you been interested in photography? Ever considered a change of career?
+
+>I always liked taking photos, but it was not until about three years ago that I decided to get a system camera. Since then I’ve been hooked. I do small jobs for friends now and then, but I don’t think I’ll ever become a full-time photographer. Maybe if I could get some job where I could travel a lot. I love traveling.
+
+A lot of programmers that I’ve met also enjoy photography. Do these two areas have anything in common?
+
+>I think something that a lot of people not familiar with programming don’t see is that programming is very creative work, not something you can do by just following a step-by-step list. At least most of the time. So basically, most programmers are very creative people. Photography is also something creative and it’s something that is easy to get started with, so I think that’s why a lot of programmers end up photographing.
+
+You previously worked in a consultant agency. What would you say are the main differences when working at a product company like you do now?
+
+>The main difference is the fact that whatever you create stays with you, forever. The good thing is that you get to make your creations better and better. You know the ins-and-outs of them, and you start to love them, in a nerdy kind of way. The “bad” thing is that you’re responsible for these projects if/when they break down. So quality code is important!
+
+Would you say that you get a better chance to produce quality in a product company, that doesn’t make it’s living by selling hours?
+
+>Absolutely. Mostly because in consultant situations, the customers don’t want to pay as much as the developer would like them to in order to make a perfect solution, which makes the quality worse. And that can be frustrating to the developer. On the other hand, you get a clean slate as a consultant, and can try different approaches for different customers.
+
+How about the pressure to deliver on time? Do you still have the same hard deadlines as you would normally have in a consultant agency?
+
+>Absolutely, we have internal project deadlines that we need to follow. I think this is very good because you see a light at the end of the tunnel, you know you’re going to be done by then. Well, most of the time, anyways. :)
+
+Tell us a little more about your own projects. How do you find the time to get them done? I noticed that you also play games. I find myself in a constant struggle between work, family, projects and hobbies.
+
+>Yeah, basically I have these crunch weeks when I have less time to meet friends and more time for coding. My sleep suffers a lot too. But I’m the kind of person who can really enjoy sitting with a project for a while, it gives me a peace of mind. Then I also have these lax weeks when I barely touch a computer after work, and just go out and chillax with my friends.
+
+How do you do when you want to get in the flow of developing? Any rituals/music/drinks?
+
+>When I really want to get stuff done, I stay late at work, drink Dr. Pepper and listen to house music. :)
+
+What is it with programmers and repetitive music?
+
+>I’m not really into the repetitive part of the music, I listen to a lot of electronic/techno songs that aren’t repetitive at all too, it’s just that the type of music, the sounds in the music… They help me concentrate.
+
+When I moved to Stockholm it was quite the shock with all the stress and rushing people everywhere – since then I think I’ve become a lot more like that myself. How was it to move from the southern parts of Sweden here?
+
+>Yeah, I noticed that immediately. Just the other day, I was on the subway and it was just leaving. On the other side of the platform another subway going the same way was arriving in less than a minute. Still, this guy came running and jumps into the train as the doors are closing, getting squeezed in the process. To save less than one minute. I don’t get it. I’m determined to never stress about like that. A personal rule of mine is to never run for the train.
+
+The rest of the Swedish population seems to agree that the people in Stockholm are the most unpleasant citizens in the country. What’s your impression so far?
+
+>Me and some colleagues from different countries were actually discussing this last week. We came to the conclusion that a lot of people in Stockholm are disconnected from their surroundings. So they’re not necessarily unpleasant, but if you don’t know them, they don’t mind you at all. It’s quite a contrast from other places. I lived in Spain for a while, and there you got eye contact with people as they walked past, maybe even a smile. Strangers or not, people acknowledged each other. I kind of miss that here in Stockholm.
+
+It’s generally quite hard to make new friends in Stockholm – at least it seemed that way to me. Is it a benefit of having a lot of people moving in from other countries on the workplace that might be in the same position?
+
+>Definitely. I really like that about my work, we have people from a lot countries. Just last week we hired people from the Netherlands, Italy and Germany. These people are often very new in town, so they’re more than happy if you take them out for a beer or two. :)
+
+And we all like beer, don’t we? I think it’s time for us to wrap this up, I just have one final question before I let you go. Would you ever consider dating a woman/man that doesn’t like the Star Wars movies?
+
+>I definitely would, a variety in interests are healthy for a relationship, in my opinion. :) Have a good one!
+
+Thanks for taking the time!

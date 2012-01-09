@@ -1,0 +1,75 @@
+<% content_for :meta do %>
+  <title><%= @post.title %> - We the Creatives</title>
+  <meta name="keywords" content="<%= Site.meta_keywords %>"> 
+  <meta name="description" content="<%= @post.meta_description %>">
+  <meta property="og:title" content="<%= @post.title %> - <%= Site.title %>"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:url" content="http://wethecreatives.com/<%= @post.slug %>"/>
+  <meta property="og:image" content="http://wethecreatives.com<%= @post.opening_image %>"/>
+  <meta property="og:site_name" content="We the Creatives"/>
+<% end %>
+
+<% content_for :navigation do %>
+  <%= partial :default_menu %>
+<% end %>
+
+<article class="post_detail">
+  <h2><%= @post.title %></h2> 
+
+  <% if @post.has_images? %>
+    <div id="slider-wrapper">
+        <div id="slider" class="nivoSlider">
+            <% @post.images.each do |image| %>
+              <img src="<%= image %>" alt="" />
+            <% end %>
+        </div>
+    </div>
+  <% end %>
+  
+  <%= text_to_html(@post.body) %>
+  
+  <div>
+    <div class="post_information post_info_date">
+      <strong>Published:</strong> <span><%= @post.time_ago(@post.published_at) %></span>
+    </div>
+    <div class="post_information post_info_tags">
+      <strong>Filed under:</strong> <%= tags(@post.tags) %>
+    </div>
+  </div>
+  
+</article>
+
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="klaustsen" <%= if @post.legacy_url? then "data-url=\"#{@post.legacy_url }\"" end  %>>Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+
+<% if @post.legacy_url? %>
+  <fb:like layout="button_count" show_faces="false" width="50" href="<%= @post.legacy_url %>"></fb:like>
+<% else %>
+  <fb:like layout="button_count" show_faces="false" width="50"></fb:like>
+<% end%>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'wethecreatives';
+     var disqus_identifier = '<%= if @post.legacy_url? then @post.legacy_url else @post.slug end  %>';
+     var disqus_url = 'http://wethecreatives.com/<%= @post.slug %>';
+     //var disqus_developer = 1;
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<% if @post.has_images? %>
+  <script type="text/javascript">
+      $(window).load(function() {
+          $('#slider').nivoSlider({
+                  controlNav:false
+              });
+      });
+  </script>
+<% end %>

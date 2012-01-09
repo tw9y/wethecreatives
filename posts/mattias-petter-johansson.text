@@ -1,0 +1,87 @@
+# Interview: Mattias Petter Johansson
+
+	- published: true
+	- published_at: 2010-11-07
+	- author: Kristian Laustsen
+	- tagline: programmer at jaycut
+	- tags: developers, jaycut
+	- location: Stockholm, Sweden
+	- legacy_url: http://wethecreatives.com/talks/mattias-petter-johansson
+	- opening_image: /images/opening/mpj2.png
+	- images: http://farm6.static.flickr.com/5098/5398600224_20b9594d1a_z_d.jpg, http://farm6.static.flickr.com/5295/5398600380_81dbdafce3_z_d.jpg, http://farm6.static.flickr.com/5176/5397999737_8c39423214_z_d.jpg
+
+In this weeks article we’re going to talk to the swedish programmer Mattias Petter Johansson of JayCut.
+
+Hi Mattias, and welcome!
+
+Should we begin like David Copperfield? I am born, I grew up… Or is it too nerdy to quote ‘Interview with a vampire’? Let’s just start with the basics. Who are you and what do you do in 5 sentences.
+
+>Hi Kristian!
+>
+>I suppose I’m your average techcrunch-reading, ruby-grokking, two-or-three-half-assed-startups-lying-around kind of person. I dabble in video production, food and nutrition, ecommerce and whatever new cool technology that’s all the rage right now (I’m currently really, really excited about MongoDB). Most of my waking hours are spent at a company called JayCut.
+
+Tell us a little bit about JayCut
+
+>JayCut ranks #1 if you Google “online video editor”. That’s pretty much what we do, a video editor running in your browser. At the moment, we also happen to be the best in the world at it. I’m currently tasked with front end development in Flex, which is a new avenue for me! Fun!
+
+Is it hard going from the web way of thinking to a more application centered design, not just that the user does something, it goes back to the server for processing and something is presented to the user. I don’t have much experience from working with applications in that sense, but it seems to me it would include a whole new dimension of thinking.
+
+>It’s VERY different. I come from backend web programming. I’m very used to jumping back and forth to the server all the time, and not very used to advanced client programming at all. I have done quite a bit of sophisticated javascript stuff, but not anything on the level of say, Gmail.
+>
+>Coming from there, I find Flex applications very hard to follow, it feels like I’m in event hell, where everything watches everything and it’s a bajillion things updating another bajillion things. As a programmer, I have to relinquish a lot of control I’m used to having.
+>
+>A very concrete example is the concept of bindable properties. I can just bind the attribute of an object to a label, and then that label is kept synchronized with the object. This is of course extremely convinient, but the magic of it still makes me uncomfortable. It feels so unpredictable!
+
+Rumors (and a lot of people) say that Flash isn’t the future of the web. What’s your opinion? Would it even be possible to do a heavy application like that with JavaScript and HTML(5)?
+
+>Flash is definetly being replaced by Javascript, HTML5 and CSS3. The reason I’m totally convinced is that Microsoft, Apple and Google are all pushing in that direction on several different fronts.
+>
+>From a pure feature technology standpoint, I think Webkit is there already. But Flex is still the best choice for applications such as JayCut. The major reason is of course pure browser support – it will take at least two years before HTML5 browsers are close to the penetration Flash has right now. But there is also the matter of frameworks – the Flex framework is VERY sophisticated, powerful and handy, and have many mini-frameworks built around it (such as Robotlegs).
+>
+>JavaScript is a fantastic language, but there just aren’t any frameworks for JavaScript that matches the maturity of the Flex framework (which is now fourth generation). They are coming along, though – Ext JS is one of the more promising. GWT is also pretty cool.
+
+I remember reading about Youtube creating their own video editor. Are you competing with one of the most known companies in the world, or would you say that it’s a different market?
+
+>Yeah, that gave me chills when they announced it!  But it turns out that YouTubes video edtior offers a *very* limited subset of the JayCut editors features (and JayCut is definetly not feature-bloated) YouTube is a lowest-common-denominator product. They have historically always offered a product that works well and works for a large number of people, not the most innovative och feature-complete stuff. They are not like Facebook, who invents completely product new concepts every month. I have no idea if they are stealing users from us or not, but their editor has been out 4 months, and the growth of our user base is crazier than ever.
+
+You mentioned that you have a few start-ups and ideas lying around. I’ve met a lot of people in the creative community with a high level of ambition when it comes to creating “your own” things. Would you say that people in this line of work are more likely to start their own company and/or projects compared to other occupations?
+
+>Definetly. Seems like every other IT consultant I meet have at least some company lying around. I guess it’s simply because you can get SO fast from idea to market if you know a little interwebsprogramming today. With services like paypal and elogistics, it’s just insane what you can launch in just a matter of weeks.
+
+Talking about having a lot of ideas – can you tell us how you make them come true? I’ve seen a lot of ideas go to the grave becuase of lack of time. How do you prioritize when you have a girlfriend, wife, dog or cat?
+
+>That almost two questions, about having time for life, and about actually getting ideas to reality.
+>
+>A person like me must have a VERY patient partner, or the relationship wont work. When I’m involved in my new exciting project, everything else goes down the crapper, sleep, hygiene, health, cleaning, social life etc. The key is showing a lot of gratitude and making up for it later, I guess. Really, your life can’t have too many other responsibilities – House and dogs and shit is out of the question right now, I would either just die of the extra stress they would bring, or be frustrated because they prevented me from launching into new cool things.
+>
+>My Meyers-Briggs personality type is ENTP, which means that I have a very difficult time finishing projects. I keep getting distracted by the cool new thing. To be honest, the only reliable solution I have right now, is to bring others into the project so that there is a strong social pressure to actually get the damn thing out the door.
+>
+>I’m also currently trying the strategy of launching very fast. I’m very good at starting and doing, but get bored fast. There needs to be a lauch, something real, at a very early point, or I will get project fatigue.
+
+I know that you currently work 80% of the normal week at your paid work. What do you do with all that other time? Does it go into projects?
+
+>My free time always goes into projects. I have fridays off, but I don’t always work fridays, sometimes I push my project time to saturday, and chill out on friday, it depends on my energy level.
+
+Tell us a little about your workflow.
+
+>I really like conceptualizing. Drawing, planning, writing before doing gives my otherwise chaotic mind direction and focus. It’s a place I get stuck in quite often (ideas are much better before they run into the problems of reality, heh). To counter this, I divide my conceptualizing into “chapters”. I have too many ideas for any given product to fit into a 1.0 version, so I often lock down the initial feature set (chapter one) and start working on that. This method allows me to keep brainstorming on the product (adding future “chapters”) but keeps me from constantly deviating from the plan (since the chapter I’m working on is locked down).
+
+Tell us about some of the projects you’re currently involved in. I know some people in Sweden will recognize you for ‘Knappnytt’. What is it, how did that start and why?
+
+>Knappnytt is my contribution to the ever-growing amount of internet memes. It’s a satirical news magazine with a cat that comments popular culture. It got started as a fun flash project, and just hit absolutely ridiculous popularity in no time at all, and we turned it into an ongoing series that now has 30000 fans on facebook, which is pretty big for something swedish. When life gives you lemons…
+
+How do you do to get into a flow when developing? Listen to any special music?
+
+>On days when I have a tough time getting stuff done, I use the Pomodoro technique to get into gear, it works very well for me. When I listen to music, I listen to electronic instrumental music, it shuts out the rest of the office (or train) very efficiently – I’m very easily distracted.
+
+I know you’ve been using the five sentences technique. Tell us some more and what the response from other people has been.
+
+>I have a tendency to get VERY verbose when writing, so limitations are very, very good. My problem in most areas is that I tend to do too much. I haven’t really gotten much responses on it yet, it’s just a signature, but five.sentenc.es really works well for me – my emails get a lot more concise and clear. Also, instead of creating enormously long emails, I divide them up as one per subject, even if I’m sending to just one person. That makes the emails smaller “bites” for the recipient and they are more inclined to reply.
+
+What’s the deal with those fancy shoes you have? Everyone’s been asking about them.
+
+>They are called Vibram Fivefingers (http://www.vibramfivefingers.com/) and are shoes that are designed to resemble the feeling and posture of walking barefoot as closely as possible. Besides being enourmously comfortable, they are also very good for posture and back, and a FANTASTIC conversation starter. If I was single, I’d wear these when I go out clubbing.
+
+Thanks for taking the time Mattias, I’m sure we’ll get back to you in another episode. Oh, and finally: Captain Picard vs. Captain Kirk?
+
+>Picard, but that’s just because I love the song (http://www.youtube.com/watch?v=6rYhRqf757I).

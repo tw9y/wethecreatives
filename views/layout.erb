@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <%= partial :head %>
+</head> 
+<body>
+  <div id="wrapper"> 
+    <header> 
+        <a href="/" rel="home"> 
+          <h1 id="logo"><%= Site.tag_line %></h1>
+        </a> 
+    </header> 
+    <nav class="main"> 
+      <% yield_content :navigation %>
+    </nav> 
+    <section id="content"> 
+      <%= yield %>
+    </section> 
+  </div> 
+  <footer>
+    <p>Created and curated by <a href="<%= Site.author_url %>" rel="author"><%= Site.author %></a></p> 
+  </footer>
+  
+  <script type="text/javascript">
+  var clicky_site_id = 66416437;
+  (function() {
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//static.getclicky.com/js';
+    ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+  })();
+  </script>
+  <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66416437ns.gif" /></p></noscript>
+</body> 
+</html>
